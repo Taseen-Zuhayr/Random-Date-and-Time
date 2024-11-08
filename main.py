@@ -10,7 +10,7 @@ def randate(startdate,enddate):
     randomtime = starttime + randomgenerator * (endtime-starttime)
     randomdate = time.strftime(dateformat,time.localtime(randomtime))
     return randomdate
-print("Random date : ",randate("1/1/2024","11/8/2024"))
+print("Random date : ",randate("1/1/12","11/8/24"))
 
 
 
